@@ -3,7 +3,7 @@ const app=express();
 const morgan=require('morgan');
 const mongoose= require('mongoose');
 
-mongoose.connect(`mongodb://localhost:27017/HomeTrialHadasim`,
+mongoose.connect(`mongodb://localhost:27017/HomeTrianHadasim`,
 {
     useNewUrlParser:true,
     useUnifiedTopology:true
