@@ -2,6 +2,9 @@ const express=require('express');
 const router=express.Router();
 const user_model=require('../models/userData');
 const mongoose= require('mongoose');
+
+
+
 // const {,createAllArticles,updateArticles,deleteArticles} = require('../controllers/articles');
 //getAll users
 router.get('/',(req,res)=>{
